@@ -1,52 +1,79 @@
-## What do I mean "create pdfs with Python ##
-What is a pdf?
-    A pdf is a $portable document format$ developed by Adobe in '93. It can include text, images, and links independent from the OS.
-How could it be created in python? I thought .pdf was it's file type, not .py
-    There is a python library that allows you to add text and images as well as allign content to a page the exact way you want it 
-Why would I create it in Python?
-    Creating a pdf in Word can be easier if you are only creating 1 unique document. A use case for creating on Python would be that 
-    a person could create many unique pdfs as once, personalizing each one but having them follow the same structure. Many Unique PDFs.
+## What do I mean "create pdfs with Python" ## *should I use the word "create"?.. "Python and PDFs"*
+    What is a pdf?
+        A pdf is a $portable document format$ developed by Adobe in '93. It can include text, images, and links independent from the OS.
+    How could it be created in python? $I thought .pdf was it's file type, not .py$
+        There are python libraries that allow you to add text and images as well as allign content to a page the exact way you want it 
+    Why would I create a PDF in Python?
+        Creating a pdf in Word can be easier if you are only creating 1 unique document. A use case for creating on Python would be that 
+        a person could create many unique pdfs as once, personalizing each one but having them follow the same structure. Many Unique PDFs.
 
-    Another would be pulling data off a pdf easily (text->voice or whatever project you have in mind)
-
-## Different things to do with it ##
-- Can turn a text file into a pdf
-- Convert html to pdf
-- Extract text from pdf 
-- Just straight up writing it within python 
-
-## Do I need anything extra other than Python? ##
-Outside of downloading Python, nope!
+## Different things to do with the power of creating pdfs in python ##
+    - Can turn a text file or html into a pdf
+    - If you have many people needing a slightly different PDF, Python makes the creation easy
+    - Extract text from pdf **
 
 ## How? ##
-*Empasis on the 2 different libraries?*
-import fpdf - free to use & doesn't need an api
-    stands for free pdfs
-    support from py 2.5-3.7
-    can manage header, footer, format, & margin
-you will have to pip install it
-    pip install fpdf
-    or
-    py -m pip install fpdf 
+    $*Empasis on the 2 different libraries?*$
+    -import fpdf - free to use & doesn't need an api
+        stands for free pdfs
+        support from py 2.5-3.7
+        can manage header, footer, format, & margin
+        has yellow line bc need to
+    -import pypdf2
+        this is for reading pdfs.. reading is just a bonus
+    -you will have to pip install it
+        pip install fpdf
+        or
+        py -m pip install fpdf 
 
-## Can you read pdfs with this? ##
-    (demo)
-    Many/unique?
+## Do I need anything extra other than Python? ##
+    Outside of downloading Python, nope!
 
 ## Can you write pdfs with this? ##
+    (demo)
+        *Live code - show creation of file and everything
+        Comment everything even if it is live.. use this time to talk about things*
+        -
+    Many/unique?
+
+## Can you read pdfs with this? - a bonus ##
+    On top of creating a pdf in Python, you can also read pdfs in Python
+        A use case for this would be pulling data off a pdf easily 
+        (text->voice or whatever project you have in mind)
+
     (demo)
     many/unique?
 
 ## What have I done with this? ##
-Loteria Board
+    Loteria Board (Don't spend more than 8 min on this)
+        -why I know so much
+            $RH logo$
+            I was the director of hacker expierence for a hackathon in 2020, which meant I made all of the side events
+            2 weeks before our event, covid & quarentine hit and we had to make the whole hackathon virtual
+            So I had to turn our planned Loteria event digital
+            How would I give each hacker a unique RowdyHacks theamed board? 
+            $pics of boards I made$
+            I was able to make 500 unique board in our theme that the hackers could access through a secured link
+            And all create in only a few days, if not hours
+        -show then demo code
+            Some things here will outside of our scope
+            There will be things that could've been done better, but I did make this days before 
+                and the code was only used for myself so bare that in mind
+            *explain quickly*
+            *have pdf to the right - split ide right*
+        -If you want to run or play with this code, it is public on github 
+            $https://github.com/JadaE/RH_Loteria$ 
+            $qr code$
 
-## Other neat things ##
-mini demos
-    - text file -> pdf
-    - html -> pdf
+***## Other neat things ## *Will there be time for this??*
+    mini demos
+        - text file -> pdf
+        - html -> pdf
 
-## conclusion ##
+## conclusion & Questions ##
 
 ### links i used ###
-https://www.geeksforgeeks.org/convert-text-and-text-file-to-pdf-using-python/
-https://realpython.com/creating-modifying-pdf/
+    https://www.geeksforgeeks.org/convert-text-and-text-file-to-pdf-using-python/
+    https://realpython.com/creating-modifying-pdf/
+    http://www.fpdf.org/en/doc/cell.htm
+    http://www.fpdf.org/en/doc/output.htm
