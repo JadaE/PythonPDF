@@ -32,7 +32,9 @@
 ## Can you write pdfs with this? ##
     (demo)
         *Live code - show creation of file and everything
-        Comment everything even if it is live.. use this time to talk about things*
+        Comment everything even if it is live.. use this time to talk about things
+        Use audience names from zoom to make individual pdfs saying hello?
+        Start with creating 1, then loop it to many names*
         -
     Many/unique?
 

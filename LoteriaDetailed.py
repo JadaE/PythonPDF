@@ -73,7 +73,7 @@ while count!=500:
             '''
             This math calls for every index at the 4th slot (x=3,7,11) to create a new row in addition to inserting the image
             whereas the remaining indexes should just insert the image and white space
-            ***with the exception of the 15th, as it is the last image, so no row/white space needed.
+            with the exception of the 15th, as it is the last image, so no row/white space needed.
             '''
             if (x %4)-3==0 and x!=0:
                 pdf.image(cardImage, x = xaxis, y = yaxis, w = 3.5, h = 4, type = 'jpeg', link = '')
