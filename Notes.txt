@@ -1,0 +1,52 @@
+## What do I mean "create pdfs with Python ##
+What is a pdf?
+    A pdf is a $portable document format$ developed by Adobe in '93. It can include text, images, and links independent from the OS.
+How could it be created in python? I thought .pdf was it's file type, not .py
+    There is a python library that allows you to add text and images as well as allign content to a page the exact way you want it 
+Why would I create it in Python?
+    Creating a pdf in Word can be easier if you are only creating 1 unique document. A use case for creating on Python would be that 
+    a person could create many unique pdfs as once, personalizing each one but having them follow the same structure. Many Unique PDFs.
+
+    Another would be pulling data off a pdf easily (text->voice or whatever project you have in mind)
+
+## Different things to do with it ##
+- Can turn a text file into a pdf
+- Convert html to pdf
+- Extract text from pdf 
+- Just straight up writing it within python 
+
+## Do I need anything extra other than Python? ##
+Outside of downloading Python, nope!
+
+## How? ##
+*Empasis on the 2 different libraries?*
+import fpdf - free to use & doesn't need an api
+    stands for free pdfs
+    support from py 2.5-3.7
+    can manage header, footer, format, & margin
+you will have to pip install it
+    pip install fpdf
+    or
+    py -m pip install fpdf 
+
+## Can you read pdfs with this? ##
+    (demo)
+    Many/unique?
+
+## Can you write pdfs with this? ##
+    (demo)
+    many/unique?
+
+## What have I done with this? ##
+Loteria Board
+
+## Other neat things ##
+mini demos
+    - text file -> pdf
+    - html -> pdf
+
+## conclusion ##
+
+### links i used ###
+https://www.geeksforgeeks.org/convert-text-and-text-file-to-pdf-using-python/
+https://realpython.com/creating-modifying-pdf/
