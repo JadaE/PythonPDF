@@ -35,8 +35,22 @@
         Comment everything even if it is live.. use this time to talk about things
         Use audience names from zoom to make individual pdfs saying hello?
         Start with creating 1, then loop it to many names*
-        -
+        -import line
+        -pdf=FPDF() & this can have 0+arguments
+        -add page
+        -have several options here 
+            -set_margins
+            -set_font
+            -set_fill_color
+            -etc
+        -images
+        -cells & how text goes in them
+        -can add more pages
+            -each page you have to redu the options you set
+            -is there anyway to avoid this?***
+        -to save use pdf.output() & explain options
     Many/unique?
+        -take above code and on the new page(s), add a loop & personalize
 
 ## Can you read pdfs with this? - a bonus ##
     On top of creating a pdf in Python, you can also read pdfs in Python
